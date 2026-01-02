@@ -1,0 +1,43 @@
+========================================
+DEPLOY TO VERCEL - STEP BY STEP
+========================================
+
+You're seeing the Git URL page. Here's how to deploy WITHOUT Git:
+
+OPTION 1: Use Command Line (RECOMMENDED)
+----------------------------------------
+1. Close the browser page
+2. Open PowerShell/Command Prompt in your project folder
+3. Run this command:
+   
+   npx vercel --prod
+
+4. It will ask:
+   - Set up and deploy? Type: Y
+   - Link to existing project? Type: N
+   - Project name? Type: sagar-portfolio
+   - Directory? Press Enter (use current folder)
+   - Override settings? Type: N
+
+5. Done! You'll get a live URL
+
+
+OPTION 2: Use Vercel CLI with Drag & Drop
+------------------------------------------
+1. Look for "Deploy" button at top of Vercel dashboard
+2. Or go to: vercel.com/new
+3. Look for "Import" or "Deploy" option
+4. There might be a way to upload a folder directly
+
+
+OPTION 3: Create GitHub Repo First
+-----------------------------------
+1. Go to github.com
+2. Create a new repository
+3. Push your code
+4. Then use that URL in Vercel
+
+========================================
+QUICKEST: Use Option 1 (CLI) above!
+========================================
+
