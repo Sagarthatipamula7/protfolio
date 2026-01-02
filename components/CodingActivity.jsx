@@ -2,10 +2,10 @@ export default function CodingActivity() {
   const leetcodeStats = {
     username: "thatipamulasagar7",
     rank: "#179360",
-    totalSolved: 491,
-    easy: { solved: 254, total: 918 },
-    medium: { solved: 213, total: 1978 },
-    hard: { solved: 24, total: 896 }
+    totalSolved: 200,
+    easy: { solved: 118, total: 918 },
+    medium: { solved: 70, total: 1978 },
+    hard: { solved: 4, total: 896 }
   };
 
   const platforms = [
@@ -77,7 +77,7 @@ export default function CodingActivity() {
                   />
                 </svg>
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-3xl font-bold text-gray-800">{leetcodeStats.totalSolved}</span>
+                  <span className="text-3xl font-bold text-gray-800">{leetcodeStats.totalSolved}+</span>
                 </div>
               </div>
 
