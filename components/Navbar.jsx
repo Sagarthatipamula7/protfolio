@@ -30,6 +30,7 @@ export default function Navbar() {
             <li><a href="#projects" className={`hover:text-blue-600 transition-colors ${scrolled ? "text-gray-800" : "text-white"}`}>Projects</a></li>
             <li><a href="#education" className={`hover:text-blue-600 transition-colors ${scrolled ? "text-gray-800" : "text-white"}`}>Education</a></li>
             <li><a href="#certifications" className={`hover:text-blue-600 transition-colors ${scrolled ? "text-gray-800" : "text-white"}`}>Certifications</a></li>
+            <li><a href="#coding-activity" className={`hover:text-blue-600 transition-colors ${scrolled ? "text-gray-800" : "text-white"}`}>Coding</a></li>
             <li><a href="#contact" className={`px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors`}>Contact</a></li>
           </ul>
         </div>
